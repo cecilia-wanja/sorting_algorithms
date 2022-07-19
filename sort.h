@@ -23,6 +23,9 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void quickSort(int *array, int low_index, int high_index, size_t size);
 int partition(int *array, int lowIndex, int highIndex, size_t size);
+void swap(int *arr, int idx1, int idx2);
+listint_t *create_listint(const int *array, size_t size);
+void swap_list(listint_t *pn, listint_t *temp, listint_t *nxt, listint_t **h);
 
 void print_array(int *array, size_t size);
 void print_list(const listint_t *list);
